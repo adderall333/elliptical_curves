@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Cryptography", "Cryptography\Cryptography.fsproj", "{17F2F462-FB2B-41F7-98A9-67B94069C866}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApp", "ConsoleApp\ConsoleApp.fsproj", "{17F2F462-FB2B-41F7-98A9-67B94069C866}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EllipticalCurves", "EllipticalCurves\EllipticalCurves.fsproj", "{E8B79BBB-6810-4D5B-8DC0-89C9DA2DCB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{DF5A9DF8-D585-43FD-A181-9C387805C82E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{17F2F462-FB2B-41F7-98A9-67B94069C866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F2F462-FB2B-41F7-98A9-67B94069C866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F2F462-FB2B-41F7-98A9-67B94069C866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B79BBB-6810-4D5B-8DC0-89C9DA2DCB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B79BBB-6810-4D5B-8DC0-89C9DA2DCB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B79BBB-6810-4D5B-8DC0-89C9DA2DCB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B79BBB-6810-4D5B-8DC0-89C9DA2DCB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5A9DF8-D585-43FD-A181-9C387805C82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5A9DF8-D585-43FD-A181-9C387805C82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5A9DF8-D585-43FD-A181-9C387805C82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5A9DF8-D585-43FD-A181-9C387805C82E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

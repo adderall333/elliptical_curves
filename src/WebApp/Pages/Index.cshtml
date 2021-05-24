@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Elliptical curves";
+}
+
+<div>
+    Please set initial data
+</div>
+<div style="color: red">
+    @Model.Message
+</div>
+<div>
+    <form method="post" asp-page-handler="Result">
+        <div>
+            <label>p: </label>
+            <input type="number" name="p">
+        </div>
+        <div>
+            <label>a: </label>
+            <input type="number" name="a">
+        </div>
+        <div>
+            <label>b: </label>
+            <input type="number" name="b">
+        </div>
+        <div>
+            <button type="submit">Process</button>
+        </div>
+    </form>
+</div>
+<div>
+    <pre>
+        @Model.Result
+    </pre>
+</div>
