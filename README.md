@@ -5,4 +5,4 @@
 .F#
 
 ### How to use:
-Clone the repo and run app with Rider, VS or other IDE
+Clone the repo and run app with Rider, VS or other IDE. Then you need to specify initial data: p - the number of elements of the finite field, a - coefficent at x, b - free coefficent.
